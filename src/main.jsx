@@ -12,10 +12,16 @@ const root = createRoot(document.getElementById('root'));
 root.render(
     /*
     <StrictMode>
-        <FirstApp title="Rocatoro" subTitle = {18}/>
+        <FirstApp title= "Hola soy Roberto" />
+    </StrictMode>
+    */
+   /*
+    <StrictMode>
+    <FirstApp title="Rocatoro" subTitle = {18}/>
     </StrictMode>
     */
     <StrictMode>
-    <CounterApp value = {0}/>
+    <CounterApp value={0} />
     </StrictMode>
+
 );
